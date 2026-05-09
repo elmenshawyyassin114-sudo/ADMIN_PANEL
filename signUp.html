@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+   <header class="border-bottom mb-3 p-3 bg-white  d-flex justify-content-between align-items-center">
+        <h1 class="text-primary " >Admin Panel</h1>
+        <a href="index.html" class="btn btn-outline-primary"> Home</a>
+    </header>
+    <div class="d-flex justify-content-center align-items-center " >
+        <div class=" p-3 bg-white rounded shadow d-flex  flex-column justify-content-center align-items-center">
+            <h2 class="text-primary">Create Account</h2>
+            <p>Fill the form below to sign up</p>
+            <form action="">
+                <div class="d-flex gap-3">
+                    <div class="d-flex flex-column">
+                        <label for="l1" class="form-label">First Name</label>
+                        <input type="text" id="l1" placeholder="First Name" class="form-control">
+                    </div>
+                    <div class="d-flex flex-column">
+                         <label for="l2" class="form-label">Last Name</label>
+                        <input type="text" id="l2" placeholder="Last Name" class="form-control  ">
+                    </div>
+                </div>
+                <div class="d-flex flex-column mt-2">
+                    <label for="l3">Email Address</label>
+                    <input type="email" id="l3" placeholder="Email" class="form-control">
+                </div>
+                <div class="d-flex flex-column mt-2">
+                    <label for="l4" class="form-label">Password</label>
+                    <input type="password" id="l4" placeholder="Password" class="form-control">
+                </div>
+                    <div class="d-flex flex-column mt-2">
+                        <label for="l5" class="form-label  ">Confirm Password</label>
+                        <input type="password" id="l5" placeholder="Confirm Password" class="form-control">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" class="form-check-input" id="l6">
+                        <label for="l6" class="form-label">I agree to the</label>
+                        <a href="">Terms Of Services</a>
+                        <span>and</span>
+                        <a href="">Privacy Policy</a>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary w-100 mt-2">Create Account</button>
+                    </div>
+                    <hr>
+                    <div>
+                        <span>
+                            Already have Account ? 
+                            <a href="signIn.html">Sign In</a>
+                        </span>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

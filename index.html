@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+    <header class="border-bottom mb-3 p-3 bg-white d-flex justify-content-between align-items-center">
+        <h1 class="text-primary " >Admin Panel</h1>
+        <a href="signUp.html" class="btn btn-outline-primary"> Sign Up</a>
+    </header>
+
+    <main class="d-flex">
+        <div class="w-25">
+            <ul class="list-group">
+                <li class="list-group-item active">Dashboard</li>
+                <li class="list-group-item">Analystics</li>
+                <li class="list-group-item">Settings</li>
+                <li class="list-group-item">Users</li>
+            </ul>
+        </div>
+        <div class="w-75">
+            <div class="d-flex ">
+                <div  class="p-3 bg-primary m-3 rounded text-center">
+                    <h3>Total Sales</h3>
+                    <h2>$5,000</h2>
+                </div>
+                <div class="p-3 bg-success m-3 rounded text-center">
+                    <h3>New Users</h3>
+                    <h2>120</h2>
+                </div>
+                <div class="p-3 bg-warning m-3 rounded text-center">
+                    <h3>Pending Tasks</h3>
+                    <h2>15</h2>
+                </div>
+            </div>
+            <div>
+                <h2>Recent Activity</h2>
+                <table class="table table-borderless  ">
+                    <tr>
+                        <td>Date</td> <td>Activity </td> <td>Status</td>
+                    </tr>
+                                        <tr>
+                        <td>OCT 10</td> <td>Password changed </td> <td class="bg-info text-white rounded badge" >Updated</td>
+                    </tr>
+                                        <tr>
+                        <td>OCT 11</td> <td>New user registered </td> <td class="bg-success text-white rounded badge" >Success</td>
+                    </tr>
+                    
+
+                </table>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
